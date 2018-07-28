@@ -24,7 +24,6 @@ function whereImFrom(drivers) {
   return drivers.name + " is from " + drivers.hometown;
 }
 
-
 function attributesToPhrase(drivers) {
   return drivers.map(whereImFrom)
 }
